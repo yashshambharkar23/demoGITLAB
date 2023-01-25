@@ -1,0 +1,6 @@
+run_test:
+  image: node:18.13.0
+  before_script:
+      - npm install
+  script:
+      - npm start
